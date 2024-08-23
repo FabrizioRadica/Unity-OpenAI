@@ -9,6 +9,8 @@ The code is provided as-is, with no guarantees that it will work in the future o
 
 
 *Implementation Test*
+
+{
 public class Test : MonoBehaviour
 {    
     
@@ -33,4 +35,5 @@ public class Test : MonoBehaviour
             apiManager.SendRequest(prompt, maxTokens);
         }
     }
+}
 }
