@@ -37,9 +37,7 @@ public class Test : MonoBehaviour
 
         if (apiManager != null)
         {
-            string prompt = apiConfig.apiPrompt;
-            int maxTokens = apiConfig.apiMaxToken; // Definisci il numero massimo di token
-            apiManager.SendRequest(prompt, maxTokens);
+            apiManager.SendRequest(apiConfig.apiPrompt, apiConfig.apiMaxToken);
         }
     }
 }
