@@ -18,8 +18,10 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {    
-    
+
+    //Your ScriptableObject Config!
     public OpenAI_Config apiConfig;
+    
     public OpenAIAPIManager apiManager;
 
     void Init()
