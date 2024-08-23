@@ -7,6 +7,10 @@ Here’s a simple, basic implementation of OpenAI’s API in Unity. The code isn
 
 The code is provided as-is, with no guarantees that it will work in the future or that there will be any further updates.
 
+*******************************
+NEEDS YOUR OpenAI KEY!!!!
+*******************************
+
 
 **Implementation Test**
 
